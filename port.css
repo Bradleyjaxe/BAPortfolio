@@ -1,0 +1,131 @@
+/*Whole-doc*/
+	*{
+		font-family: monospace;
+		
+		
+	}
+	li{
+		list-style: none;
+	}
+	.body{
+		text-align: center;
+		
+		color: floralwhite;
+	}
+
+
+/*Whole-doc-end*/
+
+
+
+/*Header-intro*/
+	
+	nav{
+		display: inline;
+		float:center;	
+	}
+	h3{
+		float: left;
+		color: black;
+		padding: 0;
+		font-size: 200%;
+		display: inline-grid;
+		width: 75%;
+
+		}
+	.head-list{
+		display: inline;
+		text-align: right;
+		float: right;
+		padding: 5px;
+		font-size: large;
+		}
+
+	.head-all,.small-intro{
+		background-image: url(background.jpg);
+		color: black;
+		}
+	#cont-list{
+			display: inline;
+			float: center;
+			padding: 1px;
+			padding-right: 40px;
+		}
+	#intro-stat{
+		padding-bottom: 20px;
+		font-size: large;
+	}
+/*Header-intro-End*/
+
+
+/*Body*/
+		.body{
+			background: black;
+		}
+		#body-head{
+			width: 30%;
+			display: inline-block;
+			
+
+		}
+
+	/*Projects*/
+		.project-tiles{
+			display: grid;
+			grid-template-columns: 50% 50%;
+		}
+		.project-idv{
+			justify-self: center;
+			padding: 4%;
+			position: relative;
+			border: white;
+			border-width: 2px;
+
+		}
+		.project-idv: hover >h4{
+			visibility: visible;
+			
+		}
+		.project-idv >h4{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			visibility: visible;
+			z-index: 2;
+			transition: all ease in-out;
+		}
+		.project{
+			border-radius: 5px;
+			box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+			transition: all ease and-out .2s;
+		}
+		.project:hover{
+			filter: brightness(.75);
+			box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+
+		}
+
+
+	/*Projects*/
+	
+	
+
+/*Body-end*/
+
+/*footer*/
+#cont-list-f{
+	display: inline;
+	text-align: center;
+	width: 10%;
+	padding: px;
+
+}
+footer{
+	padding-bottom: 2%;
+}
+
+
+/*footer-end*/
+
